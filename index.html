@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Horizons - Learn About Artificial Intelligence</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav-container">
+        <div class="logo">
+          <img src="https://api.iconify.design/solar:robot-bold.svg?color=%234ade80" alt="AI Horizons Logo">
+          AI Horizons
+        </div>
+        <div class="menu-toggle" id="menuToggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#newsletter">Newsletter</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Unleash the full potential of AI</h1>
+            <p>Learn how Artificial Intelligence is transforming the world and prepare for the future with our specialized courses.</p>
+            <a href="#newsletter" class="button">
+              Get Started
+              <img src="https://api.iconify.design/solar:arrow-right-bold.svg?color=%23111827" alt="Arrow" width="20">
+            </a>
+            <div class="stats">
+              <div class="stat-item">
+                <span class="stat-number" data-value="50000">0</span>
+                <span class="stat-label">Active Students</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number" data-value="100">0</span>
+                <span class="stat-label">Available Courses</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=500" alt="AI Technology">
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="features">
+        <div class="features-container">
+          <div class="section-header">
+            <h2>Why Learn AI?</h2>
+            <p>Discover the different areas of Artificial Intelligence and how they can impact your career</p>
+          </div>
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon">
+                <img src="https://api.iconify.design/solar:brain-bold.svg?color=%23ffffff" alt="Machine Learning" width="24">
+              </div>
+              <h3>Machine Learning</h3>
+              <p>Learn how algorithms can automatically learn and evolve from data.</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">
+                <img src="https://api.iconify.design/solar:chart-bold.svg?color=%23ffffff" alt="Deep Learning" width="24">
+              </div>
+              <h3>Deep Learning</h3>
+              <p>Explore neural networks and how they mimic human brain functionality.</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">
+                <img src="https://api.iconify.design/solar:chat-bold.svg?color=%23ffffff" alt="NLP" width="24">
+              </div>
+              <h3>Natural Language Processing</h3>
+              <p>Discover how machines process and understand human language.</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">
+                <img src="https://api.iconify.design/solar:eye-bold.svg?color=%23ffffff" alt="Computer Vision" width="24">
+              </div>
+              <h3>Computer Vision</h3>
+              <p>Understand how machines can see and interpret real-world images.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="newsletter" class="newsletter">
+        <div class="newsletter-container">
+          <h2>Stay Updated</h2>
+          <p>Receive the latest news about AI and technology directly in your email</p>
+          <form id="newsletterForm" class="newsletter-form">
+            <input type="text" id="name" placeholder="Your name" required>
+            <input type="email" id="email" placeholder="Your best email" required>
+            <button type="submit" class="button">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2024 AI Academy. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
